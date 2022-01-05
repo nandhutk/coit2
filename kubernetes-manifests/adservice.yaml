@@ -25,13 +25,13 @@ spec:
       labels:
         app: adservice
     spec:
-      serviceAccountName: default
-      terminationGracePeriodSeconds: 5
-      imagePullSecrets:
-      - name: deploy-pull-harbor
+     # serviceAccountName: default
+     # terminationGracePeriodSeconds: 5
+     # imagePullSecrets:
+     # - name: deploy-pull-harbor
       containers:
       - name: server
-        image: adservice
+        image: asia.gcr.io/striped-symbol-335902/adservice
         ports:
         - containerPort: 9555
         env:
