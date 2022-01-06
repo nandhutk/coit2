@@ -32,7 +32,7 @@ spec:
       - name: gcr1-json-key
       containers:
         - name: server
-          image: frontend
+          image: asia.gcr.io/striped-symbol-335902/frontend
           ports:
           - containerPort: 8080
           readinessProbe:
