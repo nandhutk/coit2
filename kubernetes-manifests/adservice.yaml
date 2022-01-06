@@ -32,6 +32,8 @@ spec:
       containers:
       - name: server
         image: asia.gcr.io/striped-symbol-335902/adservice
+      imagePullSecrets:
+        - name: gcr-json-key
         ports:
         - containerPort: 9555
         env:
