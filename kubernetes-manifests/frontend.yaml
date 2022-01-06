@@ -29,7 +29,7 @@ spec:
     spec:
       serviceAccountName: default
       imagePullSecrets:
-      - name: deploy-pull-harbor
+      - name: gcr1-json-key
       containers:
         - name: server
           image: frontend
