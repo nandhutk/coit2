@@ -31,10 +31,10 @@ spec:
       terminationGracePeriodSeconds: 5
       restartPolicy: Always
       imagePullSecrets:
-      - name: deploy-pull-harbor
+      - name: gcr1-json-key
       containers:
       - name: main
-        image: loadgenerator
+        image: asia.gcr.io/striped-symbol-335902/loadgenerator
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
