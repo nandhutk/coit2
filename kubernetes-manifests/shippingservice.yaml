@@ -27,10 +27,10 @@ spec:
     spec:
       serviceAccountName: default
       imagePullSecrets:
-      - name: deploy-pull-harbor
+      - name: gcr1-json-key
       containers:
       - name: server
-        image: shippingservice
+        image: asia.gcr.io/striped-symbol-335902/shippingservice
         ports:
         - containerPort: 50051
         env:
