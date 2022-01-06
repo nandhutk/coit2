@@ -27,7 +27,7 @@ spec:
     spec:
       serviceAccountName: default
       imagePullSecrets:
-      - name: deploy-pull-harbor
+      - name: gcr1-json-key
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
