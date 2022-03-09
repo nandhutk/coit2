@@ -30,7 +30,7 @@ spec:
       - name: gcr1-json-key
       containers:
       - name: server
-        image: asia.gcr.io/striped-symbol-335902/shippingservice
+        image: gcr.io/optimum-spring-337907/shippingservice:4.0.0
         ports:
         - containerPort: 50051
         env:
