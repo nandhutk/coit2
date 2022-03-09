@@ -30,7 +30,7 @@ spec:
 
       containers:
       - name: server
-        image: gcr.io/adservice-createimage-wf5pd/paymentservice:4.0.0
+        image: gcr.io/adservice-createimage-wf5pd/paymentservice
         ports:
         - containerPort: 50051
         env:
