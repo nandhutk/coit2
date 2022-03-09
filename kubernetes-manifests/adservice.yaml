@@ -31,7 +31,7 @@ spec:
       - name: gcr1-json-key
       containers:
       - name: server
-        image: asia.gcr.io/striped-symbol-335902/adservice
+        image: gcr.io/optimum-spring-337907/adservice:4.0.0
         ports:
         - containerPort: 9555
         env:
