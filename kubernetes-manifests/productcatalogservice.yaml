@@ -30,7 +30,7 @@ spec:
 
       containers:
       - name: server
-        image: gcr.io/optimum-spring-337907/productcatalogservice
+        image: gcr.io/optimum-spring-337907/productcatalogservice:4.0.0
         ports:
         - containerPort: 3550
         env:
