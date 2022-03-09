@@ -31,7 +31,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: asia.gcr.io/striped-symbol-335902/currencyservice
+        image: gcr.io/optimum-spring-337907/currencyservice:4.0.0
         ports:
         - name: grpc
           containerPort: 7000
