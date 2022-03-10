@@ -32,7 +32,7 @@ spec:
       - name: gcr1-json-key
       containers:
         - name: server
-          image: gcr.io/optimum-spring-337907/frontend
+          image: gcr.io/optimum-spring-337907/frontend:4.0.0
           ports:
           - containerPort: 8080
           readinessProbe:
